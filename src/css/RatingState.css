@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+  button.button-numbers {
+    @apply text-primary-light-grey bg-primary-light-grey/10 hover:bg-primary-orange hover:text-primary-dark-blue mb-6 h-10 w-10 cursor-pointer rounded-full text-center sm:h-[46px] sm:w-[340px];
+  }
+
+  button.active {
+    @apply text-primary-dark-blue bg-primary-white;
+  }
+
+  button.button-rating {
+    @apply bg-primary-orange text-primary-dark-blue hover:bg-primary-white h-11 w-[280px] rounded-3xl font-bold uppercase tracking-widest sm:h-[45px] sm:w-[340px];
+  }
+}

@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  div.container-thankyou {
+    @apply m-4 flex flex-col items-center justify-center text-center;
+  }
+  header.header-thankyou {
+    @apply mb-3 flex h-[170px] w-[150px] flex-col items-center justify-center gap-5 sm:h-[190px] sm:w-[180px];
+  }
+  p.header-text-thankyou {
+    @apply bg-primary-light-grey/10 text-primary-orange mb-6 flex h-8 h-9 w-full items-center justify-center rounded-3xl text-center text-xs sm:text-sm;
+  }
+}

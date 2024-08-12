@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-size: 15px !important;
+  }
+
+  * {
+    transition: all 0.1s ease-in-out;
+  }
+
+  @font-face {
+    font-family: 'Overpass';
+    font-weight: 700;
+    src: url('/fonts/Overpass-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Overpass';
+    font-weight: 400;
+    src: url('/fonts/Overpass-Regular.ttf');
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
